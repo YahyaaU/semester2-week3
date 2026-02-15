@@ -11,8 +11,8 @@ int main( void ) {
     float deposit = 120.0;  // initial deposit
     float rate = 0.05;      // interest rate
     int term = 5;           // number of years
-    float final_amount;
-    float gain;
+    float final_amount;     // Final amount after 5 years
+    float gain;             // Gained interest (Final amount - deposit)
 
     /*
      * Implement the formula for compound interest.
